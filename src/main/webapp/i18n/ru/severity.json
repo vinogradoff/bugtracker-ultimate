@@ -1,0 +1,11 @@
+{
+  "bugTrackerUltimateApp": {
+    "Severity": {
+      "null": "",
+      "CRITICAL": "CRITICAL",
+      "MAJOR": "MAJOR",
+      "MEDIUM": "MEDIUM",
+      "MINOR": "MINOR"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+
+entity Project {
+    name String required
+}
+
+entity Label{
+    label String required minlength(3)
+}
+
+enum Severity{
+   CRITICAL,
+   MAJOR,
+   MEDIUM,
+   MINOR
+}
+entity Ticket{
+    title String required
+    description String required
+    dueDate LocalDate
+    done Boolean
+    severity Severity 
+}
+
+relationship ManyToMany {
+    Ticket{label(label)} to Label{ticket}
+}
+
+relationship ManyToOne {
+    Ticket{project(name)} to Project,
+    Ticket{assignedTo(login)} to User{ticket}
+}
+
+paginate Ticket with pagination

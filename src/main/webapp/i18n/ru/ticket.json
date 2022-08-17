@@ -1,0 +1,31 @@
+{
+  "bugTrackerUltimateApp": {
+    "ticket": {
+      "home": {
+        "title": "Tickets",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Ticket",
+        "createOrEditLabel": "Создать или отредактировать Ticket",
+        "notFound": "Tickets не найдено"
+      },
+      "created": "Новый Ticket создан с идентификатором {{ param }}",
+      "updated": "Ticket обновлен с идентификатором {{ param }}",
+      "deleted": "Ticket удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Ticket {{ id }}?"
+      },
+      "detail": {
+        "title": "Ticket"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "dueDate": "Due Date",
+      "done": "Done",
+      "severity": "Severity",
+      "project": "Project",
+      "assignedTo": "Assigned To",
+      "label": "Label"
+    }
+  }
+}

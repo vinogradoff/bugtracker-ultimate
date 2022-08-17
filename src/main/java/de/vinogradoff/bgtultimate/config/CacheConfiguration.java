@@ -51,6 +51,11 @@ public class CacheConfiguration {
             createCache(cm, de.vinogradoff.bgtultimate.domain.User.class.getName());
             createCache(cm, de.vinogradoff.bgtultimate.domain.Authority.class.getName());
             createCache(cm, de.vinogradoff.bgtultimate.domain.User.class.getName() + ".authorities");
+            createCache(cm, de.vinogradoff.bgtultimate.domain.Project.class.getName());
+            createCache(cm, de.vinogradoff.bgtultimate.domain.Label.class.getName());
+            createCache(cm, de.vinogradoff.bgtultimate.domain.Label.class.getName() + ".tickets");
+            createCache(cm, de.vinogradoff.bgtultimate.domain.Ticket.class.getName());
+            createCache(cm, de.vinogradoff.bgtultimate.domain.Ticket.class.getName() + ".labels");
             // jhipster-needle-ehcache-add-entry
         };
     }
