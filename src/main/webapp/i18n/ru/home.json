@@ -1,19 +1,19 @@
 {
   "home": {
-    "title": "Добро пожаловать, Java Hipster!",
+    "title": "Добро пожаловать!",
     "subtitle": "Это ваша домашняя страница",
     "logged": {
       "message": "Вы вошли как пользователь \"{{username}}\"."
     },
-    "question": "Если у Вас возникли вопросы по JHipster:",
+    "question": "Это приложение написано для курсов компании practiqa.kz",
     "link": {
-      "homepage": "JHipster домашняя страница",
+      "homepage": "Страница курсов",
       "stackoverflow": "JHipster на Stack Overflow",
       "bugtracker": "JHipster баг трекер",
       "chat": "JHipster public chat room",
       "follow": "пользователь @jhipster в Twitter"
     },
-    "like": "Если вам нравится JHipster, не забудьте дать нам звёздочку на",
-    "github": "GitHub"
+    "like": "Заходите в телеграм-группу для наших студентов:",
+    "github": "@practiqa_chat"
   }
 }
