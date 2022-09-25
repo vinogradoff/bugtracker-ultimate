@@ -41,7 +41,7 @@ import { ErrorComponent } from './layouts/error/error.component';
   ],
   providers: [
     Title,
-    { provide: LOCALE_ID, useValue: 'ru' },
+    { provide: LOCALE_ID, useValue: 'en' },
     { provide: NgbDateAdapter, useClass: NgbDateDayjsAdapter },
     httpInterceptorProviders,
   ],
