@@ -7,9 +7,9 @@
 # More information on configuration properties: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
 spring:
-  profiles:
-    include:
-      - swagger
+profiles:
+  include:
+    - swagger
 # ===================================================================
 # Standard Spring Boot properties.
 # Full reference is available at:
