@@ -6,10 +6,6 @@
 # More information on profiles: https://www.jhipster.tech/profiles/
 # More information on configuration properties: https://www.jhipster.tech/common-application-properties/
 # ===================================================================
-spring:
-profiles:
-  include:
-    - swagger
 # ===================================================================
 # Standard Spring Boot properties.
 # Full reference is available at:
@@ -36,6 +32,9 @@ management:
         enabled: false
 
 spring:
+  profiles:
+    include:
+      - swagger
   devtools:
     restart:
       enabled: false
