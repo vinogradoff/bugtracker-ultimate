@@ -4,7 +4,7 @@ dependencies {
     testImplementation "org.testcontainers:postgresql"
 }
 
-def profiles = "prod"
+def profiles = "prod,swagger"
 if (project.hasProperty("no-liquibase")) {
     profiles += ",no-liquibase"
 }
