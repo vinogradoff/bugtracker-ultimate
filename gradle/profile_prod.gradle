@@ -9,7 +9,7 @@ if (project.hasProperty("no-liquibase")) {
     profiles += ",no-liquibase"
 }
 
-if (project.hasProperty("api-docs")) {
+if (project.hasProperty("api-docs2")) {
     profiles += ",api-docs"
 }
 

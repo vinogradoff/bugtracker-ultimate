@@ -54,7 +54,7 @@ jobs:
         run: |
           GIT_TAG=:${GITHUB_REF#refs/tags/}
           DOCKER_TAG=${GIT_TAG#:refs/heads/main}
-          ./gradlew jib -Djib.to.image=vinogradoff/bugtracker-ultimate${DOCKER_TAG} -Djib.to.auth.username="${{ secrets.DOCKER_USERNAME }}" -Djib.to.auth.password="${{ secrets.DOCKER_PASSWORD }}" -Pprod
+          ./gradlew jib -Djib.to.image=vinogradoff/bugtracker-ultimate${DOCKER_TAG} -Djib.to.auth.username="${{ secrets.DOCKER_USERNAME }}" -Djib.to.auth.password="${{ secrets.DOCKER_PASSWORD }}" -Pprod -Papi-docs
       - name: 'E2E: Package'
         run: npm run ci:e2e:package
       - name: 'E2E: Prepare'
